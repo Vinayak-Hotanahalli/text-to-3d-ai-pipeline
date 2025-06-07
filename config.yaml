@@ -1,0 +1,6 @@
+# Configuration for super-user role
+super-user:
+  # List of application IDs used by the super-user
+  app_ids:
+    - f0997a01-d6d3-a5fe-53d8-561300318557  # First application ID (e.g., Text-to-Image app)
+    - 69543f29-4d41-4afc-7f29-3d51591f11eb  # Second application ID (e.g., Image-to-3D app)

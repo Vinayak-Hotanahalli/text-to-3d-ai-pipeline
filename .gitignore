@@ -1,0 +1,6 @@
+__pycache__/ 
+*.pyc 
+venv/ 
+generated_image.png 
+generated_model.obj 
+memory.json 
