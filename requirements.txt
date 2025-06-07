@@ -1,0 +1,14 @@
+openfabric-pysdk==1.0.2       # Openfabric core SDK
+openfabric-sdk==1.0.2         # Openfabric execution context support
+
+numpy==1.26.4                 # For numerical operations
+Pillow==10.2.0                # Image loading/saving for Text-to-Image app
+
+poetry==1.8.2                 # For dependency and project management (optional)
+
+meshio==5.3.4                 # For handling and converting 3D mesh formats
+trimesh==4.4.0                # For 3D mesh processing and rendering
+matplotlib==3.8.4             # Optional: for visualizing output models/images
+
+torch==2.3.0                  # PyTorch, if Local LLM uses deep learning
+transformers==4.41.1          # HuggingFace Transformers for LLM models
