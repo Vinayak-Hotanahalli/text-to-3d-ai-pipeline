@@ -88,15 +88,15 @@ This project implements a modular AI pipeline that transforms text prompts into 
 
 ### 🔄 Pipeline Flow
 
-                                                 🧑‍💻 User Prompt (Text Input) 
-                                                              ⬇  
-                                 🧠 Local LLM (DeepSeek / LLaMA) – Prompt Understanding & Expansion  
-                                                              ⬇  
-                                        🖼️ Text-to-Image App (Openfabric) – Visual Generation  
-                                                              ⬇  
-                                       🧱 Image-to-3D App (Openfabric) – 3D Model Conversion  
-                                                              ⬇  
-                                        💾 Memory Storage – Session & Long-Term Persistence
+                       🧑‍💻 User Prompt (Text Input) 
+                                     ⬇  
+          🧠 Local LLM (DeepSeek / LLaMA) – Prompt Understanding & Expansion  
+                                     ⬇  
+                🖼️ Text-to-Image App (Openfabric) – Visual Generation  
+                                     ⬇  
+                 🧱 Image-to-3D App (Openfabric) – 3D Model Conversion  
+                                     ⬇  
+                 💾 Memory Storage – Session & Long-Term Persistence
 
 This design ensures flexibility, scalability, and full local execution without external dependencies.
 
